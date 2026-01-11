@@ -1,0 +1,6 @@
+POST http://localhost:3000/canciones
+Content-Type: application/json
+
+{
+  "cancion": "Vals"
+}

@@ -1,0 +1,12 @@
+POST http://localhost:3000/rsvp
+Content-Type: application/json
+
+{
+  "personas": [
+    { "nombre": "Anahi", "apellido": "Oliva"},
+    { "nombre": "Camila", "apellido": "Paz", "requerimientos": "Vegano"  },
+    { "nombre": "Guillermo", "apellido": "Paz" },
+    { "nombre": "Paulina", "apellido": "Paz" },
+    { "nombre": "Martina", "apellido": "Paz" }
+  ]
+}
