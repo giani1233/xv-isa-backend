@@ -1,4 +1,4 @@
-POST http://localhost:3000/rsvp
+POST xv-isa-backend-production-36cf.up.railway.app/rsvp
 Content-Type: application/json
 
 {

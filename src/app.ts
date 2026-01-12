@@ -6,7 +6,9 @@ import cancionesRouter from './routes/canciones.routes.js';
 const app = express();
 
 /* Middlewares base */
-app.use(cors());
+app.use(cors({
+  origin: '*' // permite cualquier dominio
+}));
 app.use(express.json());
 
 /* Rutas */
